@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/v/chrome-manifest-plugin.svg)](https://www.npmjs.com/package/chrome-manifest-plugin)
+[![npm](https://img.shields.io/npm/dt/chrome-manifest-plugin.svg)](https://www.npmjs.com/package/chrome-manifest-plugin)
+[![npm](https://img.shields.io/npm/l/chrome-manifest-plugin.svg)](https://www.npmjs.com/package/chrome-manifest-plugin)
+
 Plugin for Webpack that keeps a Chrome extension's manifest file up-to-date
 with package.json.
 
