@@ -5,6 +5,12 @@
 Plugin for Webpack that keeps a Chrome extension's manifest file up-to-date
 with package.json.
 
+## Install
+
+Installable through npm:
+
+`npm install --save-dev chrome-manifest-plugin`
+
 ## Usage
 
 Assuming you have a `package.json` file, make sure you have your
