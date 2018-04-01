@@ -1,0 +1,17 @@
+{
+  "name": "chrome-manifest-plugin",
+  "version": "1.0.0",
+  "description": "Keeps a Chrome extension's manifest file up-to-date with package.json",
+  "main": "chrome-manifest-plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Stiles",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^2.0.0 || ^3.0.0 || ^4.0.0"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}
