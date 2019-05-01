@@ -13,7 +13,6 @@ ChromeManifestPlugin.prototype.apply = function(compiler) {
     compiler.options.entry = {'main': compiler.options.entry};
   }
   compiler.options.entry.manifest = this.options.manifest;
-  compiler.options.output.filename = '[name].js';
   compiler.options.module.rules.push({
     test: /manifest\.json$/,
     loader: path.join(__dirname, "manifest-loader.js"),
